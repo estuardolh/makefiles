@@ -10,3 +10,5 @@ ps:
 	 ps -fea | grep python3
 monitor:
 	tail -f server.out
+view-all:
+	less -R server.out --color=always
